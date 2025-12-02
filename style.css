@@ -59,11 +59,11 @@ header {
 
 #container {
   display: grid;
-  grid-template-columns: 1fr 96% 1fr;
+  grid-template-columns: 1fr;
   gap: 30px;
   
   background-color: var(--fundo-principal);
-  margin-top: 20px;
+  margin: 20px;
 }
 
 
@@ -76,13 +76,13 @@ header {
 
 #ficha {
   background-color: var(--fundo-card);
-  grid-column: 2;
+  grid-column: 1;
   padding: 20px;
   border-radius: 8px;
 }
 
 #detalhes {
-  grid-column: 2;
+  grid-column: 1;
 }
 
 #redes {
@@ -254,6 +254,7 @@ header {
 @media screen and (min-width: 920px) {
   #container {
     grid-template-columns: auto repeat(2, 1fr) auto;
+    margin: 20px 0px;
   }
   
   #ficha {
