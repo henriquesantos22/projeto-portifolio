@@ -59,7 +59,7 @@ header {
 
 #container {
   display: grid;
-  grid-template-columns: auto 90vw auto;
+  grid-template-columns: 1fr 90vw 1fr;
   gap: 30px;
   
   background-color: var(--fundo-principal);
