@@ -17,7 +17,7 @@
 }
 
 body {
-  background-color: var(--fundo-principal);
+  background-color: var(red);
   font-family: Verdana;
 }
 
@@ -59,7 +59,7 @@ header {
 
 #container {
   display: grid;
-  grid-template-columns: 1fr 85vw 1fr;
+  grid-template-columns: 1fr 80vw 1fr;
   gap: 30px;
   
   background-color: var(--fundo-principal);
