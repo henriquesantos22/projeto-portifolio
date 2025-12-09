@@ -19,6 +19,7 @@
 body {
   background-color: var(--fundo-principal);
   font-family: Verdana;
+  transition: background-color .5s, color .5s;
 }
 
 body.escuro {
