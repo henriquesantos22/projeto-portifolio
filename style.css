@@ -21,6 +21,15 @@ body {
   font-family: Verdana;
 }
 
+:root {
+  --fundo-principal: #222222;
+  --texto: #e0e0e0;
+  --texto-inverso: #333333;
+  --destaque: #ff5522;
+  --destaque-inverso: #a73917;
+  --fundo-card: #444444;
+}
+
 h1, h2, h3 {
   margin-bottom: 10px;
 }
